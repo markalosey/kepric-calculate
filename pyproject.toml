@@ -1,0 +1,27 @@
+# kepric-calculate — the tools-only pyproject (the pre-commit hook's pyright leg and
+# the lint wrapper's typecheck home; NOT the packaging home — the release effort's
+# own store grows [project] with name/version/description/scripts; no packaging
+# fields live here).
+
+# The floor-3.8 law (the founding directive: zero-dependency, pure stdlib, floor
+# 3.8): the interpreter floor, declared at this file's top level — the release
+# effort's [project] table absorbs it as real project metadata when it lands.
+requires-python = ">=3.8"
+
+[dependency-groups]
+# Dev tooling ONLY: pyright (the hook's 0/0/0 leg) + ruff (the lint wrapper's check).
+# pytest NEVER — the test channel is unborn by ruling (the KAT port is the release
+# effort's act). ZERO runtime dependencies by law — the system is pure stdlib.
+dev = [
+    "pyright",
+    "ruff",
+]
+
+[tool.pyright]
+# The strictness that holds the 0/0/0 bar — the pre-commit hook greps the literal
+# pass string "0 errors, 0 warnings, 0 informations" (a warning is an error
+# waiting to happen; the tane precedent's shape). The include set = the five
+# derived engines at .opencode/scripts, the tree's only .py — they pass
+# UNMODIFIED or the finding is named, never edited.
+typeCheckingMode = "strict"
+include = [".opencode/scripts"]

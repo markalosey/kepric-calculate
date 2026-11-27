@@ -6,7 +6,7 @@
     "type": "build_route",
     "methodology": "MPIR",
     "instance": 1,
-    "status": "composed",
+    "status": "executing",
     "worktree": "kepric-calculate",
     "inputs": [
       "THE FOUNDING DIRECTIVE (THE KEPRIC-CALCULATE BIRTH, the collaborator's hand, 2026-11-26): two arcs — (1) THE TEAM BIRTH: the fully functional kumi family at this tree, 13 seats generated from hikari's shared scaffold core (the prioritree-birth precedent, 2026-11-19), the birth store convening the full team per the all-seats law; (2) THE PRODUCT: the kepric-calculate system — the zero-dependency (pure stdlib, floor 3.8), trace-line-carrying ({\"op\",\"args\",\"result\"} JSON — the provenance inseparable from the number), ThreePart-refusing (Expected/Found/Next-action at every domain error, never a traceback), route-teaching statistical calculator — 30 ops today (six arithmetic + statistics, combinatorics, distribution, seeded permutation) — released and managed as an open-source project: the packaging (pyproject, the entry point), the docs (the README leading with the trace-line law), the license, the CI (the 87-row KAT the gate), and the ongoing governed surface (the op set grows ONLY at demonstrated friction + a ruling; Tier-3's refused boundary stands: no simulation, no regression suites, no dataset ingestion, no scipy/numpy)",
@@ -24,8 +24,316 @@
       "assess": "hyoka",
       "dispatch": "shinko"
     },
-    "structure": [],
-    "gates": {},
+    "structure": [
+      {
+        "id": "foundations",
+        "purpose": "the tree's ground state made true and recorded — the discharged acts verified-and-recorded (never re-done), and the build packet landing the 0/0/0 bar's home: the birth pyproject + the Makefile, resolving the hook's pyright leg",
+        "entry_condition": "the restart validated (amendment #11) and the route composed — the birth build's first unit fires at composition",
+        "increments": [
+          {
+            "id": "foundations/confirm",
+            "owner": "shinko",
+            "gate": "foundations-gate",
+            "revert": "one-increment",
+            "steps": [
+              {
+                "id": "refs-read",
+                "executor": "deterministic",
+                "verification": "gate",
+                "member": "shinko",
+                "tool": "read"
+              },
+              {
+                "id": "confirm-record",
+                "executor": "semantic",
+                "verification": "assessment",
+                "member": "shinko"
+              }
+            ]
+          },
+          {
+            "id": "foundations/review",
+            "owner": "shinko",
+            "gate": "foundations-gate",
+            "revert": "one-increment",
+            "steps": [
+              {
+                "id": "ignore-read",
+                "executor": "deterministic",
+                "verification": "gate",
+                "member": "shinko",
+                "tool": "read"
+              },
+              {
+                "id": "tracked-proof",
+                "executor": "deterministic",
+                "verification": "gate",
+                "member": "shinko",
+                "tool": "git"
+              },
+              {
+                "id": "review-record",
+                "executor": "semantic",
+                "verification": "assessment",
+                "member": "shinko"
+              }
+            ]
+          },
+          {
+            "id": "foundations/record",
+            "owner": "kensho",
+            "gate": "foundations-gate",
+            "revert": "one-increment",
+            "steps": [
+              {
+                "id": "surfaces-read",
+                "executor": "deterministic",
+                "verification": "gate",
+                "member": "kensho",
+                "tool": "read"
+              },
+              {
+                "id": "surfaces-record",
+                "executor": "semantic",
+                "verification": "assessment",
+                "member": "kensho"
+              }
+            ]
+          },
+          {
+            "id": "foundations/build",
+            "owner": "jikko",
+            "gate": "foundations-gate",
+            "revert": "one-increment",
+            "steps": [
+              {
+                "id": "pyproject-write",
+                "executor": "deterministic",
+                "verification": "gate",
+                "member": "jikko",
+                "tool": "patch"
+              },
+              {
+                "id": "makefile-write",
+                "executor": "deterministic",
+                "verification": "gate",
+                "member": "jikko",
+                "tool": "patch"
+              },
+              {
+                "id": "build-readback",
+                "executor": "semantic",
+                "verification": "assessment",
+                "member": "jikko"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "harness",
+        "purpose": "the harness made whole and proven — the emission receipt read once it exists, the discharged remediation units verified-and-recorded (wrapper set, friction home), the LIST reconcile, and the working note born at its owned increment",
+        "entry_condition": "foundations-gate green — the pyproject landed, the hook's pyright leg resolvable, the interim bypass retired",
+        "increments": [
+          {
+            "id": "harness/verify",
+            "owner": "kensho",
+            "gate": "harness-gate",
+            "revert": "one-increment",
+            "steps": [
+              {
+                "id": "receipt-watch",
+                "executor": "semantic",
+                "verification": "assessment",
+                "member": "kensho"
+              },
+              {
+                "id": "receipt-read",
+                "executor": "deterministic",
+                "verification": "gate",
+                "member": "kensho",
+                "tool": "read"
+              },
+              {
+                "id": "receipt-record",
+                "executor": "semantic",
+                "verification": "assessment",
+                "member": "kensho"
+              }
+            ]
+          },
+          {
+            "id": "harness/audit",
+            "owner": "kensho",
+            "gate": "harness-gate",
+            "revert": "one-increment",
+            "steps": [
+              {
+                "id": "tools-read",
+                "executor": "deterministic",
+                "verification": "gate",
+                "member": "kensho",
+                "tool": "read"
+              },
+              {
+                "id": "routing-read",
+                "executor": "deterministic",
+                "verification": "gate",
+                "member": "kensho",
+                "tool": "grep"
+              },
+              {
+                "id": "audit-record",
+                "executor": "semantic",
+                "verification": "assessment",
+                "member": "kensho"
+              }
+            ]
+          },
+          {
+            "id": "harness/attest",
+            "owner": "hyoka",
+            "gate": "harness-gate",
+            "revert": "one-increment",
+            "steps": [
+              {
+                "id": "ledger-read",
+                "executor": "deterministic",
+                "verification": "gate",
+                "member": "hyoka",
+                "tool": "read"
+              },
+              {
+                "id": "attest-record",
+                "executor": "semantic",
+                "verification": "assessment",
+                "member": "hyoka"
+              }
+            ]
+          },
+          {
+            "id": "harness/reconcile",
+            "owner": "shinko",
+            "gate": "harness-gate",
+            "revert": "one-increment",
+            "steps": [
+              {
+                "id": "list-fold",
+                "executor": "semantic",
+                "verification": "assessment",
+                "member": "shinko"
+              },
+              {
+                "id": "reconcile-record",
+                "executor": "semantic",
+                "verification": "assessment",
+                "member": "shinko"
+              }
+            ]
+          },
+          {
+            "id": "harness/birth",
+            "owner": "shinko",
+            "gate": "harness-gate",
+            "revert": "one-increment",
+            "steps": [
+              {
+                "id": "note-write",
+                "executor": "deterministic",
+                "verification": "gate",
+                "member": "shinko",
+                "tool": "patch"
+              },
+              {
+                "id": "note-readback",
+                "executor": "semantic",
+                "verification": "assessment",
+                "member": "shinko"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tool-grants",
+        "purpose": "the seats' grants proven live and the collaborator's-hand era closed — the remaining seats' single-ask probes at their first dispatches, and the final land through shinko's git[land] anchoring the era's end",
+        "entry_condition": "harness-gate green — the receipt read, the discharged units verified, the working note born",
+        "increments": [
+          {
+            "id": "tool-grants/exercise",
+            "owner": "shinko",
+            "gate": "tool-grants-gate",
+            "revert": "one-increment",
+            "steps": [
+              {
+                "id": "probes-dispatch",
+                "executor": "semantic",
+                "verification": "assessment",
+                "member": "shinko"
+              },
+              {
+                "id": "probes-fold",
+                "executor": "semantic",
+                "verification": "assessment",
+                "member": "shinko"
+              }
+            ]
+          },
+          {
+            "id": "tool-grants/land",
+            "owner": "shinko",
+            "gate": "tool-grants-gate",
+            "revert": "one-increment",
+            "steps": [
+              {
+                "id": "land-fire",
+                "executor": "deterministic",
+                "verification": "gate",
+                "member": "shinko",
+                "tool": "git"
+              },
+              {
+                "id": "era-record",
+                "executor": "semantic",
+                "verification": "assessment",
+                "member": "shinko"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "gates": {
+      "foundations-gate": {
+        "type": "assessment",
+        "conditions": [
+          "pyproject.toml parses and pyright resolves the tree's five .py engines at 0 errors, 0 warnings, 0 informations — the 0/0/0 bar's config at its strictness home (kensho verifies)",
+          "make check and make typecheck run at the tree through the lint wrapper's targets (kensho verifies)",
+          "the pre-commit hook's pyright leg resolves without KEPRIC_CALCULATE_HOOK_BYPASS=1 — the interim bypass retired at the gate close (kensho verifies)",
+          "the discharged foundations acts are verify-and-record, never re-done: the drift-clean land at 171c9cfc, the .gitignore D1 cure (package.json/tsconfig.json tracked, .plans/ tracked-never-ignored), the standing surfaces (README skeleton, LICENSE present and named for the release store's judgment) — recorded as evidence (hyoka assesses)"
+        ]
+      },
+      "harness-gate": {
+        "type": "assessment",
+        "conditions": [
+          "the emission receipt EXISTS: the --check run fired at hikari main's root by the collaborator's hand (never a seat's), and kensho reads the PASS count from the receipt itself — named as the receipt shows, not a guessed 24 (the ten wrappers joined the emission per D1)",
+          "the wrapper set verified routed per D1, verify-and-record of the discharge at 1beb049c: ten wrappers at .opencode/tools/, the five engine wrappers local at .opencode/scripts/, junro + git cross-project at the uv run --project hikari form — no dead grants (kensho verifies)",
+          "the friction home verified, verify-and-record of the discharge: .plans/state/friction-ledger.jsonl live, born and seeded, FR-MEM-0001 and FR-MEM-0002 present (kensho verifies)",
+          "the LIST reconcile recorded: shinko's and kensho's packs verified first-hand per amendment #11, the remaining 11 seats' probes riding their first dispatches, the divergences folded by shinko (kensho verifies)",
+          "the working note born at its ruled home and owned by its increment — the rulings spine, shinko's artifact contract (hyoka assesses)",
+          "the derived-view law held: no hand-edits to cycle-generated surfaces anywhere in the unit (hyoka assesses)"
+        ]
+      },
+      "tool-grants-gate": {
+        "type": "assessment",
+        "conditions": [
+          "the remaining seats' live grant exercises recorded — the single-ask probes riding their first dispatches: keisan one calculate op, tansa one census, rikai one mechanism read, togo one brief, shindan one state report, suisen one recommendation, hansei one retro, moho one blind walk at the born surface (kensho verifies)",
+          "the final land complete through shinko's git[land]: the build artifacts + the composition records + the working note — the collaborator's-hand era's closing anchor is THIS land (the FIRST shinko-hand land was 171c9cfc per amendment #10; the closing anchor is this unit's land) (kensho verifies)",
+          "the registration law's live proof accumulates — no seat's grant left dead (hyoka assesses)",
+          "the release effort composes next at its own store, never inside this route — the boundary held through the close (hyoka assesses)"
+        ]
+      }
+    },
     "checkpoints": [],
     "protocol": "v2.1",
     "amendments": [
@@ -101,6 +409,204 @@
         "what": "THE RESTART VALIDATED (shinko's dispatch, kensho's verification, 2026-11-26, at commit 1beb049c == origin/main, pushed 23:15:47 -0500 — \"the harness made whole: the wrapper set, the question key, the read-reach (the birth-fail remediation, FR-MEM-0517)\"): THE SESSION-START LIST — shinko's convenor pack bound first-hand (friction/git/junro/patch/question/task/web, each exercised live: git drift clean at 1beb049c, junro query status at the birth store, friction find at the seeded ledger); kensho's pack bound first-hand (the read family + calculate at the FULL 30 — the KAT headline binom-test 12 22 0.5 two → 0.8318119049072266 byte-exact — + junro + lint + test, each exercised); the remaining 11 seats' LIST probes ride their first dispatches (the registration law's live proof, accumulating). THE GAP VERDICTS: B1 THE BINDING GAP CURED (the ten wrappers at .opencode/tools/ routed per D1 — the five engine wrappers local at .opencode/scripts/, junro + git cross-project at the uv run --project hikari form, web self-contained, lint local); B2 THE JUNRO MACHINERY CURED (the cross-project wrapper, D2's ruled form, live-verified against the birth store); B3 THE QUESTION CHANNEL CURED (platform-native, the question key at shinko's block, D3); B4 THE HIKARI-REACH PARTIAL (the D4 allow landed and committed, but at member seats the live read refuses — the user-level external_directory *→ask shadow; filed FR-MEM-0002; the execution reach + the MCP reach live as workarounds); B5 THE INSTRUMENT GAP NOT CURED BY RULED DEFERRAL (no pyproject — the foundations unit's first act; KEPRIC_CALCULATE_HOOK_BYPASS=1 interim; lint check/typecheck dead at no Makefile; the test channel unborn at no tests/ — the KAT port + packaging the release effort's act). THE ADVERSARIAL FINDINGS NAMED: the tree not clean (FR-MEM-0001 + amendments #9/#10 postdate the push — the first land owed at shinko's git[land] per amendment #10); git.ts's unshroud extra vs the ruled five (inert at a worktree-less tree, named); the junro op-level over-grant (the full 19-op runtime surface at every junro-allowed seat vs the prompt rows — prompt discipline, the writes actor-guarded at the engine); the ghost-prose class (the engines' hikari citations — the verbatim-copy law: named not defected); the emission --check receipt still unverified on disk (the harness unit's kensho leg owns it). THE NEXT-LANE STATE: (i) the first land (shinko's git[land] — the birth records + this validation; no staged .py, the hook passes trivially); (ii) keikaku's composition re-dispatch (the three gated units into the store — transcript-only until now; its instruments now bind); (iii) foundations' pyproject (+ the Makefile the lint wrapper's targets need); (iv) the read-reach cure at the user/platform layer (the collaborator's hand).",
         "ruled_at": "2026-11-26",
         "why": "the session-start law (the restart's own proof, recorded same-turn) + the validation judgment the collaborator asked (\"opencode restarted with fixes from hikari. validate.\")"
+      },
+      {
+        "what": "add-gate {\"conditions\": \"[\\\"pyproject.toml parses and pyright resolves the tree's five .py engines at 0 errors, 0 warnings, 0 informations — the 0/0/0 bar's config at its strictness home (kensho verifies)\\\", \\\"make check and make typecheck run at the tree through the lint wrapper's targets (kensho verifies)\\\", \\\"the pre-commit hook's pyright leg resolves without KEPRIC_CALCULATE_HOOK_BYPASS=1 — the interim bypass retired at the gate close (kensho verifies)\\\", \\\"the discharged foundations acts are verify-and-record, never re-done: the drift-clean land at 171c9cfc, the .gitignore D1 cure (package.json/tsconfig.json tracked, .plans/ tracked-never-ignored), the standing surfaces (README skeleton, LICENSE present and named for the release store's judgment) — recorded as evidence (hyoka assesses)\\\"]\", \"gate\": \"foundations-gate\", \"type\": \"assessment\"}",
+        "ruled_at": "2026-11-26",
+        "why": "junro route-op provenance stamp (design-spec §6: every route op stamps actor, timestamp, and arguments into the route's amendments)",
+        "actor": "keikaku",
+        "timestamp": "2026-11-26T14:52:34Z",
+        "op": "add-gate"
+      },
+      {
+        "what": "add-gate {\"conditions\": \"[\\\"the emission receipt EXISTS: the --check run fired at hikari main's root by the collaborator's hand (never a seat's), and kensho reads the PASS count from the receipt itself — named as the receipt shows, not a guessed 24 (the ten wrappers joined the emission per D1)\\\", \\\"the wrapper set verified routed per D1, verify-and-record of the discharge at 1beb049c: ten wrappers at .opencode/tools/, the five engine wrappers local at .opencode/scripts/, junro + git cross-project at the uv run --project hikari form — no dead grants (kensho verifies)\\\", \\\"the friction home verified, verify-and-record of the discharge: .plans/state/friction-ledger.jsonl live, born and seeded, FR-MEM-0001 and FR-MEM-0002 present (kensho verifies)\\\", \\\"the LIST reconcile recorded: shinko's and kensho's packs verified first-hand per amendment #11, the remaining 11 seats' probes riding their first dispatches, the divergences folded by shinko (kensho verifies)\\\", \\\"the working note born at its ruled home and owned by its increment — the rulings spine, shinko's artifact contract (hyoka assesses)\\\", \\\"the derived-view law held: no hand-edits to cycle-generated surfaces anywhere in the unit (hyoka assesses)\\\"]\", \"gate\": \"harness-gate\", \"type\": \"assessment\"}",
+        "ruled_at": "2026-11-26",
+        "why": "junro route-op provenance stamp (design-spec §6: every route op stamps actor, timestamp, and arguments into the route's amendments)",
+        "actor": "keikaku",
+        "timestamp": "2026-11-26T14:52:34Z",
+        "op": "add-gate"
+      },
+      {
+        "what": "add-gate {\"conditions\": \"[\\\"the remaining seats' live grant exercises recorded — the single-ask probes riding their first dispatches: keisan one calculate op, tansa one census, rikai one mechanism read, togo one brief, shindan one state report, suisen one recommendation, hansei one retro, moho one blind walk at the born surface (kensho verifies)\\\", \\\"the final land complete through shinko's git[land]: the build artifacts + the composition records + the working note — the collaborator's-hand era's closing anchor is THIS land (the FIRST shinko-hand land was 171c9cfc per amendment #10; the closing anchor is this unit's land) (kensho verifies)\\\", \\\"the registration law's live proof accumulates — no seat's grant left dead (hyoka assesses)\\\", \\\"the release effort composes next at its own store, never inside this route — the boundary held through the close (hyoka assesses)\\\"]\", \"gate\": \"tool-grants-gate\", \"type\": \"assessment\"}",
+        "ruled_at": "2026-11-26",
+        "why": "junro route-op provenance stamp (design-spec §6: every route op stamps actor, timestamp, and arguments into the route's amendments)",
+        "actor": "keikaku",
+        "timestamp": "2026-11-26T14:52:34Z",
+        "op": "add-gate"
+      },
+      {
+        "what": "compose-stage {\"entry_condition\": \"the restart validated (amendment #11) and the route composed — the birth build's first unit fires at composition\", \"purpose\": \"the tree's ground state made true and recorded — the discharged acts verified-and-recorded (never re-done), and the build packet landing the 0/0/0 bar's home: the birth pyproject + the Makefile, resolving the hook's pyright leg\", \"stage\": \"foundations\"}",
+        "ruled_at": "2026-11-26",
+        "why": "junro route-op provenance stamp (design-spec §6: every route op stamps actor, timestamp, and arguments into the route's amendments)",
+        "actor": "keikaku",
+        "timestamp": "2026-11-26T14:52:34Z",
+        "op": "compose-stage"
+      },
+      {
+        "what": "compose-stage {\"entry_condition\": \"foundations-gate green — the pyproject landed, the hook's pyright leg resolvable, the interim bypass retired\", \"purpose\": \"the harness made whole and proven — the emission receipt read once it exists, the discharged remediation units verified-and-recorded (wrapper set, friction home), the LIST reconcile, and the working note born at its owned increment\", \"stage\": \"harness\"}",
+        "ruled_at": "2026-11-26",
+        "why": "junro route-op provenance stamp (design-spec §6: every route op stamps actor, timestamp, and arguments into the route's amendments)",
+        "actor": "keikaku",
+        "timestamp": "2026-11-26T14:52:34Z",
+        "op": "compose-stage"
+      },
+      {
+        "what": "compose-stage {\"entry_condition\": \"harness-gate green — the receipt read, the discharged units verified, the working note born\", \"purpose\": \"the seats' grants proven live and the collaborator's-hand era closed — the remaining seats' single-ask probes at their first dispatches, and the final land through shinko's git[land] anchoring the era's end\", \"stage\": \"tool-grants\"}",
+        "ruled_at": "2026-11-26",
+        "why": "junro route-op provenance stamp (design-spec §6: every route op stamps actor, timestamp, and arguments into the route's amendments)",
+        "actor": "keikaku",
+        "timestamp": "2026-11-26T14:52:34Z",
+        "op": "compose-stage"
+      },
+      {
+        "what": "add-increment {\"gate\": \"foundations-gate\", \"increment\": \"foundations/confirm\", \"owner\": \"shinko\", \"stage\": \"foundations\", \"steps\": \"[{\\\"id\\\": \\\"refs-read\\\", \\\"executor\\\": \\\"deterministic\\\", \\\"verification\\\": \\\"gate\\\", \\\"member\\\": \\\"shinko\\\", \\\"tool\\\": \\\"read\\\"}, {\\\"id\\\": \\\"confirm-record\\\", \\\"executor\\\": \\\"semantic\\\", \\\"verification\\\": \\\"assessment\\\", \\\"member\\\": \\\"shinko\\\"}]\"}",
+        "ruled_at": "2026-11-26",
+        "why": "junro route-op provenance stamp (design-spec §6: every route op stamps actor, timestamp, and arguments into the route's amendments)",
+        "actor": "keikaku",
+        "timestamp": "2026-11-26T14:54:09Z",
+        "op": "add-increment"
+      },
+      {
+        "what": "add-increment {\"gate\": \"foundations-gate\", \"increment\": \"foundations/review\", \"owner\": \"shinko\", \"stage\": \"foundations\", \"steps\": \"[{\\\"id\\\": \\\"ignore-read\\\", \\\"executor\\\": \\\"deterministic\\\", \\\"verification\\\": \\\"gate\\\", \\\"member\\\": \\\"shinko\\\", \\\"tool\\\": \\\"read\\\"}, {\\\"id\\\": \\\"tracked-proof\\\", \\\"executor\\\": \\\"deterministic\\\", \\\"verification\\\": \\\"gate\\\", \\\"member\\\": \\\"shinko\\\", \\\"tool\\\": \\\"git\\\"}, {\\\"id\\\": \\\"review-record\\\", \\\"executor\\\": \\\"semantic\\\", \\\"verification\\\": \\\"assessment\\\", \\\"member\\\": \\\"shinko\\\"}]\"}",
+        "ruled_at": "2026-11-26",
+        "why": "junro route-op provenance stamp (design-spec §6: every route op stamps actor, timestamp, and arguments into the route's amendments)",
+        "actor": "keikaku",
+        "timestamp": "2026-11-26T14:54:19Z",
+        "op": "add-increment"
+      },
+      {
+        "what": "add-increment {\"gate\": \"foundations-gate\", \"increment\": \"foundations/record\", \"owner\": \"kensho\", \"stage\": \"foundations\", \"steps\": \"[{\\\"id\\\": \\\"surfaces-read\\\", \\\"executor\\\": \\\"deterministic\\\", \\\"verification\\\": \\\"gate\\\", \\\"member\\\": \\\"kensho\\\", \\\"tool\\\": \\\"read\\\"}, {\\\"id\\\": \\\"surfaces-record\\\", \\\"executor\\\": \\\"semantic\\\", \\\"verification\\\": \\\"assessment\\\", \\\"member\\\": \\\"kensho\\\"}]\"}",
+        "ruled_at": "2026-11-26",
+        "why": "junro route-op provenance stamp (design-spec §6: every route op stamps actor, timestamp, and arguments into the route's amendments)",
+        "actor": "keikaku",
+        "timestamp": "2026-11-26T14:54:19Z",
+        "op": "add-increment"
+      },
+      {
+        "what": "add-increment {\"gate\": \"foundations-gate\", \"increment\": \"foundations/build\", \"owner\": \"jikko\", \"stage\": \"foundations\", \"steps\": \"[{\\\"id\\\": \\\"pyproject-write\\\", \\\"executor\\\": \\\"deterministic\\\", \\\"verification\\\": \\\"gate\\\", \\\"member\\\": \\\"jikko\\\", \\\"tool\\\": \\\"patch\\\"}, {\\\"id\\\": \\\"makefile-write\\\", \\\"executor\\\": \\\"deterministic\\\", \\\"verification\\\": \\\"gate\\\", \\\"member\\\": \\\"jikko\\\", \\\"tool\\\": \\\"patch\\\"}, {\\\"id\\\": \\\"build-readback\\\", \\\"executor\\\": \\\"semantic\\\", \\\"verification\\\": \\\"assessment\\\", \\\"member\\\": \\\"jikko\\\"}]\"}",
+        "ruled_at": "2026-11-26",
+        "why": "junro route-op provenance stamp (design-spec §6: every route op stamps actor, timestamp, and arguments into the route's amendments)",
+        "actor": "keikaku",
+        "timestamp": "2026-11-26T14:54:19Z",
+        "op": "add-increment"
+      },
+      {
+        "what": "add-increment {\"gate\": \"harness-gate\", \"increment\": \"harness/verify\", \"owner\": \"kensho\", \"stage\": \"harness\", \"steps\": \"[{\\\"id\\\": \\\"receipt-watch\\\", \\\"executor\\\": \\\"semantic\\\", \\\"verification\\\": \\\"assessment\\\", \\\"member\\\": \\\"kensho\\\"}, {\\\"id\\\": \\\"receipt-read\\\", \\\"executor\\\": \\\"deterministic\\\", \\\"verification\\\": \\\"gate\\\", \\\"member\\\": \\\"kensho\\\", \\\"tool\\\": \\\"read\\\"}, {\\\"id\\\": \\\"receipt-record\\\", \\\"executor\\\": \\\"semantic\\\", \\\"verification\\\": \\\"assessment\\\", \\\"member\\\": \\\"kensho\\\"}]\"}",
+        "ruled_at": "2026-11-26",
+        "why": "junro route-op provenance stamp (design-spec §6: every route op stamps actor, timestamp, and arguments into the route's amendments)",
+        "actor": "keikaku",
+        "timestamp": "2026-11-26T14:54:19Z",
+        "op": "add-increment"
+      },
+      {
+        "what": "add-increment {\"gate\": \"harness-gate\", \"increment\": \"harness/audit\", \"owner\": \"kensho\", \"stage\": \"harness\", \"steps\": \"[{\\\"id\\\": \\\"tools-read\\\", \\\"executor\\\": \\\"deterministic\\\", \\\"verification\\\": \\\"gate\\\", \\\"member\\\": \\\"kensho\\\", \\\"tool\\\": \\\"read\\\"}, {\\\"id\\\": \\\"routing-read\\\", \\\"executor\\\": \\\"deterministic\\\", \\\"verification\\\": \\\"gate\\\", \\\"member\\\": \\\"kensho\\\", \\\"tool\\\": \\\"grep\\\"}, {\\\"id\\\": \\\"audit-record\\\", \\\"executor\\\": \\\"semantic\\\", \\\"verification\\\": \\\"assessment\\\", \\\"member\\\": \\\"kensho\\\"}]\"}",
+        "ruled_at": "2026-11-26",
+        "why": "junro route-op provenance stamp (design-spec §6: every route op stamps actor, timestamp, and arguments into the route's amendments)",
+        "actor": "keikaku",
+        "timestamp": "2026-11-26T14:54:19Z",
+        "op": "add-increment"
+      },
+      {
+        "what": "add-increment {\"gate\": \"harness-gate\", \"increment\": \"harness/attest\", \"owner\": \"hyoka\", \"stage\": \"harness\", \"steps\": \"[{\\\"id\\\": \\\"ledger-read\\\", \\\"executor\\\": \\\"deterministic\\\", \\\"verification\\\": \\\"gate\\\", \\\"member\\\": \\\"hyoka\\\", \\\"tool\\\": \\\"read\\\"}, {\\\"id\\\": \\\"attest-record\\\", \\\"executor\\\": \\\"semantic\\\", \\\"verification\\\": \\\"assessment\\\", \\\"member\\\": \\\"hyoka\\\"}]\"}",
+        "ruled_at": "2026-11-26",
+        "why": "junro route-op provenance stamp (design-spec §6: every route op stamps actor, timestamp, and arguments into the route's amendments)",
+        "actor": "keikaku",
+        "timestamp": "2026-11-26T14:54:27Z",
+        "op": "add-increment"
+      },
+      {
+        "what": "add-increment {\"gate\": \"harness-gate\", \"increment\": \"harness/reconcile\", \"owner\": \"shinko\", \"stage\": \"harness\", \"steps\": \"[{\\\"id\\\": \\\"list-fold\\\", \\\"executor\\\": \\\"semantic\\\", \\\"verification\\\": \\\"assessment\\\", \\\"member\\\": \\\"shinko\\\"}, {\\\"id\\\": \\\"reconcile-record\\\", \\\"executor\\\": \\\"semantic\\\", \\\"verification\\\": \\\"assessment\\\", \\\"member\\\": \\\"shinko\\\"}]\"}",
+        "ruled_at": "2026-11-26",
+        "why": "junro route-op provenance stamp (design-spec §6: every route op stamps actor, timestamp, and arguments into the route's amendments)",
+        "actor": "keikaku",
+        "timestamp": "2026-11-26T14:54:27Z",
+        "op": "add-increment"
+      },
+      {
+        "what": "add-increment {\"gate\": \"harness-gate\", \"increment\": \"harness/birth\", \"owner\": \"shinko\", \"stage\": \"harness\", \"steps\": \"[{\\\"id\\\": \\\"note-write\\\", \\\"executor\\\": \\\"deterministic\\\", \\\"verification\\\": \\\"gate\\\", \\\"member\\\": \\\"shinko\\\", \\\"tool\\\": \\\"patch\\\"}, {\\\"id\\\": \\\"note-readback\\\", \\\"executor\\\": \\\"semantic\\\", \\\"verification\\\": \\\"assessment\\\", \\\"member\\\": \\\"shinko\\\"}]\"}",
+        "ruled_at": "2026-11-26",
+        "why": "junro route-op provenance stamp (design-spec §6: every route op stamps actor, timestamp, and arguments into the route's amendments)",
+        "actor": "keikaku",
+        "timestamp": "2026-11-26T14:54:27Z",
+        "op": "add-increment"
+      },
+      {
+        "what": "add-increment {\"gate\": \"tool-grants-gate\", \"increment\": \"tool-grants/exercise\", \"owner\": \"shinko\", \"stage\": \"tool-grants\", \"steps\": \"[{\\\"id\\\": \\\"probes-dispatch\\\", \\\"executor\\\": \\\"semantic\\\", \\\"verification\\\": \\\"assessment\\\", \\\"member\\\": \\\"shinko\\\"}, {\\\"id\\\": \\\"probes-fold\\\", \\\"executor\\\": \\\"semantic\\\", \\\"verification\\\": \\\"assessment\\\", \\\"member\\\": \\\"shinko\\\"}]\"}",
+        "ruled_at": "2026-11-26",
+        "why": "junro route-op provenance stamp (design-spec §6: every route op stamps actor, timestamp, and arguments into the route's amendments)",
+        "actor": "keikaku",
+        "timestamp": "2026-11-26T14:54:27Z",
+        "op": "add-increment"
+      },
+      {
+        "what": "add-increment {\"gate\": \"tool-grants-gate\", \"increment\": \"tool-grants/land\", \"owner\": \"shinko\", \"stage\": \"tool-grants\", \"steps\": \"[{\\\"id\\\": \\\"land-fire\\\", \\\"executor\\\": \\\"deterministic\\\", \\\"verification\\\": \\\"gate\\\", \\\"member\\\": \\\"shinko\\\", \\\"tool\\\": \\\"git\\\"}, {\\\"id\\\": \\\"era-record\\\", \\\"executor\\\": \\\"semantic\\\", \\\"verification\\\": \\\"assessment\\\", \\\"member\\\": \\\"shinko\\\"}]\"}",
+        "ruled_at": "2026-11-26",
+        "why": "junro route-op provenance stamp (design-spec §6: every route op stamps actor, timestamp, and arguments into the route's amendments)",
+        "actor": "keikaku",
+        "timestamp": "2026-11-26T14:54:27Z",
+        "op": "add-increment"
+      },
+      {
+        "what": "add-question {\"question\": \"Q-route-status\", \"text\": \"What lifecycle status does the kepric-calculate birth route carry now that the composition is real — the seed's 'composed' predates the structure (the store born status composed at an empty structure, the birth seed's placeholder; the composition this turn records three stages, eleven packet-sized increments, and three assessment gates against the verified current reality)? The engine's live vocabulary, read at the instrument this turn: composed | validated | executing | checkpoint | done | blocked | abandoned.\"}",
+        "ruled_at": "2026-11-26",
+        "why": "junro route-op provenance stamp (design-spec §6: every route op stamps actor, timestamp, and arguments into the route's amendments)",
+        "actor": "keikaku",
+        "timestamp": "2026-11-26T14:54:56Z",
+        "op": "add-question"
+      },
+      {
+        "what": "add-question {\"question\": \"Q-hikari-reach\", \"text\": \"What is the member seats' hikari read-reach state, and whose act is the cure? THE CURRENT STATE (priced first-hand at this composition turn): the D4 cure landed and committed (the emitted opencode.json carries the project-level external_directory allow for /Users/marklosey/projects/kepric/hikari/ with the edit/write deny layered), but the LIVE READ at member seats refuses — the user-level external_directory *→ask rule outranks the project allow and fires as a refusal at non-interactive seats (kensho's probe three-for-three at the restart validation, amendment #11; keikaku's probe refused first-hand this turn — the pattern confirmed at a second seat; B4 PARTIAL standing). FR-MEM-0002 filed at the tree's ledger (the shadow's record; this turn's second-seat datum filed beside it). THE CURE'S OWNERSHIP: the user-level permission config is the collaborator's act at the platform layer — NEVER a seat's (the project-level cure is landed; the shadow sits above the tree; no seat edits the user config). THE STANDING WORKAROUNDS: the cross-project execution reach (the junro/git wrappers invoke hikari's engines via uv run --project — live-verified), the hikari-prod MCP resources, and carrying cited content verbatim into dispatches. OPEN for the collaborator's ruling when the platform layer is tended; no composition unit blocks on it.\"}",
+        "ruled_at": "2026-11-26",
+        "why": "junro route-op provenance stamp (design-spec §6: every route op stamps actor, timestamp, and arguments into the route's amendments)",
+        "actor": "keikaku",
+        "timestamp": "2026-11-26T14:54:56Z",
+        "op": "add-question"
+      },
+      {
+        "what": "add-ruling {\"question\": \"Q-route-status\", \"resolution\": \"Executing — the composition real, the first dispatch the convenor's imminent act; the seed's placeholder 'composed' superseded by the engine's active value.\", \"ruling\": \"ROUTE STATUS (keikaku's ruling at the composition, 2026-11-26): EXECUTING. The seed's 'composed' was the birth seed's placeholder — it predates the structure (the store carried status composed at an empty structure); the composition recorded this turn is real — three stages, eleven packet-sized increments, three assessment gates, every unit priced at this turn's instruments — and the route's work begins at the composition's close: the first dispatch (the foundations build packet, the recommended first) is the convenor's imminent act, the route executing from the first packet. 'validated' refused: no separate validation act stands at this route — the composition's read-back at the composer's own instruments and the convenor's dispatch choreography are the only readers, and a validation state without a named validator would be ceremony. 'composed' re-set refused: the seed already carried the word as a placeholder — re-setting it would record no transition; the honest state is the active one.\", \"status\": \"ruled\"}",
+        "ruled_at": "2026-11-26",
+        "why": "junro route-op provenance stamp (design-spec §6: every route op stamps actor, timestamp, and arguments into the route's amendments)",
+        "actor": "keikaku",
+        "timestamp": "2026-11-26T14:55:14Z",
+        "op": "add-ruling"
+      },
+      {
+        "what": "set-route-status {\"from\": \"composed\", \"status\": \"executing\"}",
+        "ruled_at": "2026-11-26",
+        "why": "junro route-op provenance stamp (design-spec §6: every route op stamps actor, timestamp, and arguments into the route's amendments)",
+        "actor": "keikaku",
+        "timestamp": "2026-11-26T14:56:24Z",
+        "op": "set-route-status"
+      },
+      {
+        "what": "THE FOUNDATIONS STAGE'S DISCHARGED INCREMENTS + THE COLLABORATOR'S RULING (shinko, 2026-11-26): THE RULING (the collaborator, via the question tool — all three selections taken): FIRE THE BUILD PACKET — done (foundations/build → jikko: pyproject.toml [typeCheckingMode strict, include .opencode/scripts, requires-python >=3.8 top-level, dev-group pyright+ruff, NO packaging fields] + Makefile [lint + typecheck, the targets READ from lint.ts the invocation contract] — both in the working tree, landing at tool-grants/land per the composition; jikjo's report filed at the packet ledger; FR-MEM-0005 filed — the read-reach shadow's THIRD recurrence, mid-build at jikjo's seat: the hikari pyproject reads refused, the strictness composed from the ruling's own words, the residual proof kensho's at the gate); THE RECEIPT RUN — the collaborator's hand, pending (hikari's root, the --check); THE READ-REACH CURE — the collaborator's hand, pending (the platform layer; the cure's case strengthened: jikjo could not read the tane precedent the hook itself cites). FOUNDATIONS/CONFIRM DISCHARGED (verify-and-record, this session's instruments): main == origin/main == 171c9cfc (the first shinko-hand land, pushed — the land's verify legs green, both seats equal; origin live: the ls-remote + the push both succeeded); beneath it 1beb049c (the harness made whole) and 98791c9a (the birth). FOUNDATIONS/REVIEW DISCHARGED (verify-and-record): the D1 cure on disk — .opencode/.gitignore ignores node_modules/package-lock.json/bun.lock ONLY (package.json + tsconfig.json TRACKED — the fresh-clone plugin reachability); the root .gitignore (the 223-line Python template) carries no .plans entry (.plans/ tracked-never-ignored — the record home); .githooks/ tracked (the hook rode the birth commit). THE STAGE'S STATE: confirm ✓, review ✓, build ✓ (the report filed); record → kensho's gate session (the standing surfaces + the build's proof at the wrapper's own targets); the gate closes green → the harness stage fires.",
+        "ruled_at": "2026-11-26",
+        "why": "the foundations stage's shinko-owned increments discharged at the session's own instruments (the composition's 1.1/1.2) + the collaborator's three-selection ruling recorded same-turn (the two-party loop's law)"
+      },
+      {
+        "what": "HARNESS/RECONCILE DISCHARGED — THE LIST FOLD (shinko, 2026-11-26): the post-restart LIST probes — FIVE SEATS BOUND AND PROVEN LIVE at their dispatched sessions: shinko (the convenor pack — every instrument exercised live: the land 171c9cfc, the store writes, the friction filings, the working-note birth via patch), kensho x3 (the restart validation, the foundations-gate verification, the harness audit — calculate's KAT headline byte-exact at every session; the 0/0/0 typecheck leg first-hand), keikaku (the composition session — the route recorded through its 11 route ops), hyoka x2 (the foundations-gate close GREEN, the friction-home attestation CURED — the B1 namer's own instruments), jikko (the build session — the pyproject + Makefile via patch; the LIST probe its first). THE DIVERGENCES FOLDED: (1) the junro op-level over-grant — every junro-allowed seat holds the full 19-op runtime vs the prompt rows' subsets (prompt discipline governs; the writes actor-guarded at the engine; named at the restart, unchanged); (2) the unpinned platform layer — the MCP resource trio + the hikari-prod server (user-level config, unpinned at the tree; the read-reach workaround channel); (3) the read-reach shadow — SIX instances at FIVE seats (FR-MEM-0002/0003/0005/0006/0007/0008; the sixth the first zero-cost — the engine rode locally); the collaborator's platform-layer cure pending; (4) git.ts's unshroud — an op without a grant (kensho's audit re-priced; the adapter's cure at the re-run); (5) the stale-description census — eight classes across the wrapper set (kensho's audit: lint.ts src/tests; test.ts Docker + make-test targets; the make-help tail x7; the engine-path brackets x4; friction.ts worktree prose; patch.ts description_fields) — all derived surfaces, the re-run at hikari the one cure. THE REMAINING EIGHT SEATS (tansa, rikai, togo, shindan, suisen, keisan, hansei, moho): their LIST probes ride tool-grants/exercise at their first dispatches. HARNESS/BIRTH DISCHARGED TOO: the working note born at keikaku's ruled home (working-note.md at the birth store's directory, 28 lines, the rulings spine, append-only). THE HARNESS STAGE'S STATE: verify BLOCKED (the collaborator's --check receipt run pending), audit done, attest done (the B1 gap CURED), reconcile done (this fold), birth done — the harness-gate holds until the receipt lands.",
+        "ruled_at": "2026-11-26",
+        "why": "the harness stage's shinko-owned increments discharged (reconcile + birth) + the fold recorded same-turn (the composition's 2.4/2.5)"
+      },
+      {
+        "what": "THE TREE'S ASK ADJUDICATED (kepric-calculate's birth-build ask, the collaborator-relayed 2026-11-26; every claim priced at hikari's instruments — the engine cites verified at hikari's own copies, the census verified at the emitted wrappers, the config read whole): (B) THE RUFF BACKLOG — TWELVE OF THIRTEEN FINDINGS ARE CONFIG-DELTA, ONE IS REAL UNDER HIKARI'S CONFIG TOO. Hikari's [tool.ruff]: select = [\"E\", \"F\", \"I\", \"N\", \"UP\", \"B\", \"SIM\", \"RUF\"], line-length 120, target py312, the per-file-ignores as read (pyproject.toml:150-197). Per code: EXE001 (E ≠ EXE — the EXE prefix not selected), PYI041 (PYI not selected — the cites verified at calculate.py:105/:112; the union is the type contract), PIE808 (PIE not selected — :764/:776 verified), PLW1510 (PL not selected — the three subprocess.run sites are report-don't-raise by design; check=True would raise instead of report) — none fire at hikari. RUF100 — RUF IS selected at hikari and S is not (Q8's ruling), so the noqa at test_runner.py:41 is dead weight under hikari's config too — LATENT at hikari only because make lint's scope is src/ tests/ (lint.mk:188; the engines live outside hikari's lint gate). THE CURE, BOTH ARMS: (a-shaped, the tree's own act — the B5 ruling's law: the pyproject is tree-owned, an emitted config would fight the rot-detector at every extension) THE TREE COMPOSES [tool.ruff] at its pyproject — THE CARRIED BYTES: line-length = 120 + [tool.ruff.lint] select = [\"E\", \"F\", \"I\", \"N\", \"UP\", \"B\", \"SIM\", \"RUF\"] (target-version OMITTED — ruff derives it from requires-python >= 3.8, the floor truth); at that select the twelve config-delta findings do not fire at all — ZERO suppressions, the zero-ignore law held at both trees; the prioritree S311 precedent is the per-file-ignore lane if the tree prefers its own select (e.g. ALL); any residual findings at the re-price route back to hikari as real defects or compose as named rulings. (b) HIKARI CURES THE ONE at the source — the dead noqa token dies at scripts/test_runner.py:41 (the intent-documentation prose \"fixed argv, no shell; pytest inherits stdio verbatim\" stays), riding the next emission's verbatim copy to every tree. (C) THE STALE-DESCRIPTION CENSUS — ALL SIX VERIFIED at hikari's reads (patch.ts:43 the make-help tail + the description_fields sentence + the scripts/patch.py bracket contradicting its own argv; test.ts:22/:44 the Docker prose + the make-target brackets; lint.ts:22/:38 the src/tests scope; git.ts:22/:25 the six-op set; the friction worktree prose by the same carry mechanism) — OWNED AT HIKARI as the emission cures' second build: the spec at hikari's calculate-expansion store (build/emission-cures-2-spec.md), the packet build/emission-cures-2 dispatched at hikari's ledger, jikko's build + kensho's second eyes next sitting, the family re-emission at the next regen cycle (the transform's description passes + the git banked form). (D) unshroud — VERIFIED six-op at the emitted wrapper; THE CURE IS THE DROP (the adapter's law: unshroud NOT carried — inert at a worktree-less tree; the prioritree banked five-op form becomes the emitted shape), riding the same build. (E) THE READ-REACH SHADOW — named at the platform layer, the collaborator's hand: the USER-LEVEL config (~/.config/opencode/opencode.json) gains permission.external_directory {\"/Users/marklosey/projects/kepric/hikari/\": \"allow\"} (the user-level ask is the outranking rule per the tree's six-instance datum — FR-MEM-0002/0003/0005/0006/0007/0008 carried at the tree's ledger; the project-level allow stands beneath); the workaround set (the cross-project execution reach, the hikari-prod MCP resources, the local engine copies, carried-in dispatches) is the standing practice until the hand lands. (F) THE RECEIPT — the collaborator's two lines at hikari main's root (uv run python scripts/generation/clarity_scaffold.py --target kepric-calculate --check), the expected verdict PASS 35/35 AT THE CURRENT STATE (the same generator/state pair kensho's second eyes verified at the emission cures' close); the cures' regen re-fires the family emission with the receipts SEAT-FIRED at the mechanization's close (the scaffold-emit/scaffold-check ops ride the landing now in flight) — the tree's harness gate may close on the current receipt, the description cures composing as the standing regen cycle behind it.",
+        "ruled_at": "2026-11-26",
+        "why": "the tree's cross-tree ask adjudicated same-turn at the instruments and recorded at the tree's own store (the reply's channel); the six findings' dispositions each with its lane"
+      },
+      {
+        "what": "THE RECEIPT CONFIRMED (the collaborator's hand, hikari main's root, 2026-11-26): uv run python scripts/generation/clarity_scaffold.py --target kepric-calculate --check → PASS 35/35 — the harness gate's receipt condition SATISFIED at the current state (the same generator/state pair kensho's second eyes verified at the emission cures' close: the ten wrappers, the question key, the read-reach, the fixed five, the 13 prompts, the maps). The harness-gate may close on this receipt; the description cures (the adjudication's (C) — hikari's build/emission-cures-2, in flight this sitting) compose as the standing regen cycle BEHIND it — the tree's on-disk wrappers go stale at that landing, the seat-fired family re-emission (the mechanization's scaffold-emit/scaffold-check ops, binding at hikari's restart) restoring them with the receipts served from the convenor's seat. The read-reach platform hand (the user-level external_directory allow) rides the collaborator's lane, named at the adjudication's (E).",
+        "ruled_at": "2026-11-26",
+        "why": "the receipt's confirmation recorded at the tree's own store (the reply's channel — their kensho's gate citation); the standing regen cycle's sequencing named so the gate closes on the current state without blocking the cures"
+      },
+      {
+        "what": "THE HARNESS-GATE CLOSED GREEN (shinko, 2026-11-26; the collaborator's ruling via the question tool — 'Fire the close' taken): hyoka's closing assessment (harness/assess, the report at the packet ledger) — ALL SIX CONDITIONS MET on the on-disk evidence: (1) the receipt confirmed at the store (PASS 35/35, amendment #36 — the count from the receipt, never the guessed 24; the harness/verify increment SUPERSEDED by the two-party confirmation, the read-reach shadow's forced channel named — no seat reads hikari's root, the only channel the collaborator's reply); (2) the wrapper set verified (kensho's audit + hyoka's first-hand re-price at the CURED on-disk state — the ten wrappers, the five local engines, junro + git cross-project, no dead grants; git.ts's enum now the ruled five, the unshroud extra cured on disk); (3) the friction home live and governing (eight entries, gapless 0001-0008); (4) the LIST reconcile folded (amendment #34); (5) the working note born at its ruled home, read first-hand; (6) the derived-view law held (every cycle-generated surface regen-marked; the cured wrapper forms the re-emission's signature, not a hand-edit — the ruff backlog itself the proof, nothing silenced). THE GATE EVENT FIRED GREEN — tool-grants unblocked (entry condition: harness-gate green). THE RIDERS NAMED (hyoka's, carried forward): (1) the regen cycle's bookkeeping — the on-disk wrapper set is the cured form, kensho's audit census now historical (its routing/grants verdicts hold); the regen's own receipt to be recorded at this tree's store when served from the convenor's seat; the git.ts sparse_stage prose's residual 'naming unshroud' rides the same cure fork; (2) Q-hikari-reach OPEN — the read-reach shadow (six instances at five seats), the cure the collaborator's platform-layer act, blocking nothing; (3) the friction triage backlog — eight entries open, triage coordinator-granted, pending; (4) the composition's attribution mismatch — the gate conditions' '(kensho verifies)' tags vs the increments's owners (attest → hyoka, reconcile → shinko), the substance met by the assigned owners with kensho's corroboration, reconciled by this note; (5) the ruff adjudication's (a) arm pending — the pyproject carries no [tool.ruff] yet.",
+        "ruled_at": "2026-11-26",
+        "why": "the two-party loop's law — the collaborator's judgment recorded same-turn; the gate closed on hyoka's six-condition judgment (the evidence, not the ruling, closed it), the riders carried forward named, never silent"
+      },
+      {
+        "what": "THE PROBES FOLDED — tool-grants/exercise DISCHARGED (shinko, 2026-11-27; the collaborator's rulings via the question tool — 'Fire the probes' taken, 'proceed' continuing the sequence): the eight seats' single-ask probes at their first dispatches — ALL LIVE, no seat's grant left dead. THE RESULTS: keisan (ONE calculate op — the trace line {\"op\": \"add\", \"args\": {\"a\": \"2\", \"b\": \"3\"}, \"result\": 5} verbatim, the provenance with the number); tansa (ONE census — 10 wrappers, 5 engines, 13 prompts, 1 plugin, 1 hook, the root artifacts present; two instruments agreeing); rikai (ONE mechanism read — the six-hop chain from the wrapper's fixed argv through the engine's only-stdout-emission _emit to the trace line, cited hop by hop: 'every number carries its proof' structural, not aspirational); togo (ONE brief — the birth's state integrated from the store's records); shindan (ONE state report — the tree's honest condition: config-not-code held, the refs matching at 171c9cfc, the ledger's eight open, the zero-ignore law held in full); suisen (ONE recommendation — LAND FIRST, CLOSE ON THE LAND, TRIAGE AFTER THE CLOSE: the gate's four conditions the only binding sequence, a rider never preceding an anchor, an externally-granted act never gating a close); hansei (ONE retro — the fail (the bootstrap circularity), the cures (D1-D4/B5 + the standing birth contract), the lesson (the gate judged on substance, every bend named), the corrective actions); moho (ONE blind walk — the unguided arrival: two dead ends found (the AGENTS.md-cited generator path absent at this tree — the derived-view architecture's known shape; the calculate surface's invisible file home), the grant live on the first unguided op, the trace line exactly the promised shape). THE REGISTRATION LAW'S LIVE PROOF COMPLETE: 13/13 seats bound at their instruments (5 at earlier dispatches per amendment #34 + 8 at the probes). THE DATUMS: (1) four seats' first runs timed out on SSE/provider transport (infrastructure, not refusals — re-fired clean; named here, not ledger-filed — a recurrence earns the entry); (2) hansei exercised its own junro grant and filed its own report event (the live proof's strongest form — verified at the ledger read-back, actor=hansei, well-formed; no duplicate filed); (3) shindan's re-pricing: the RUF100 finding GONE from disk (test_runner.py:41 carries no noqa — the re-emission's cured form) — a fresh ruff run prices 12 of the recorded 13; the divergence carried to the ruff adjudication's lane; (4) tansa's instrument datum: glob's relative-pattern form returns empty from the cwd default — the explicit-path form enumerates in full.",
+        "ruled_at": "2026-11-27",
+        "why": "the probes-fold recorded same-turn (the composition's 2.x step, the exercise increment's discharge); the collaborator's rulings taken at the question tool and carried forward — the fold precedes the land per suisen's reasoned sequence, adopted"
       }
     ]
   },
@@ -143,6 +649,24 @@
         }
       ],
       "resolution": "The adapter's shinko junro row extends to the full 19-op governed surface (hikari's manifest :596 form) — the row lands before the first emission; the rest of the adapter adopts whole."
+    },
+    {
+      "id": "Q-route-status",
+      "question": "What lifecycle status does the kepric-calculate birth route carry now that the composition is real — the seed's 'composed' predates the structure (the store born status composed at an empty structure, the birth seed's placeholder; the composition this turn records three stages, eleven packet-sized increments, and three assessment gates against the verified current reality)? The engine's live vocabulary, read at the instrument this turn: composed | validated | executing | checkpoint | done | blocked | abandoned.",
+      "status": "ruled",
+      "rulings": [
+        {
+          "text": "ROUTE STATUS (keikaku's ruling at the composition, 2026-11-26): EXECUTING. The seed's 'composed' was the birth seed's placeholder — it predates the structure (the store carried status composed at an empty structure); the composition recorded this turn is real — three stages, eleven packet-sized increments, three assessment gates, every unit priced at this turn's instruments — and the route's work begins at the composition's close: the first dispatch (the foundations build packet, the recommended first) is the convenor's imminent act, the route executing from the first packet. 'validated' refused: no separate validation act stands at this route — the composition's read-back at the composer's own instruments and the convenor's dispatch choreography are the only readers, and a validation state without a named validator would be ceremony. 'composed' re-set refused: the seed already carried the word as a placeholder — re-setting it would record no transition; the honest state is the active one.",
+          "ruled_at": "2026-11-26",
+          "actor": "keikaku"
+        }
+      ],
+      "resolution": "Executing — the composition real, the first dispatch the convenor's imminent act; the seed's placeholder 'composed' superseded by the engine's active value."
+    },
+    {
+      "id": "Q-hikari-reach",
+      "question": "What is the member seats' hikari read-reach state, and whose act is the cure? THE CURRENT STATE (priced first-hand at this composition turn): the D4 cure landed and committed (the emitted opencode.json carries the project-level external_directory allow for /Users/marklosey/projects/kepric/hikari/ with the edit/write deny layered), but the LIVE READ at member seats refuses — the user-level external_directory *→ask rule outranks the project allow and fires as a refusal at non-interactive seats (kensho's probe three-for-three at the restart validation, amendment #11; keikaku's probe refused first-hand this turn — the pattern confirmed at a second seat; B4 PARTIAL standing). FR-MEM-0002 filed at the tree's ledger (the shadow's record; this turn's second-seat datum filed beside it). THE CURE'S OWNERSHIP: the user-level permission config is the collaborator's act at the platform layer — NEVER a seat's (the project-level cure is landed; the shadow sits above the tree; no seat edits the user config). THE STANDING WORKAROUNDS: the cross-project execution reach (the junro/git wrappers invoke hikari's engines via uv run --project — live-verified), the hikari-prod MCP resources, and carrying cited content verbatim into dispatches. OPEN for the collaborator's ruling when the platform layer is tended; no composition unit blocks on it.",
+      "status": "open"
     }
   ]
 }
