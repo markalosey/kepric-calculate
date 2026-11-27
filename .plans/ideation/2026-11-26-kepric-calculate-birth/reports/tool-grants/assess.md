@@ -1,0 +1,14 @@
+<!-- regen: uv run python scripts/generation/kumi_views.py -->
+# Packet Report — tool-grants/assess
+
+**Route:** kepric-calculate-birth (executing) | **Events:** 2 | **Reports:** 1
+
+## The packet's chain (ledger order)
+
+| # | Op | Actor | Timestamp |
+|---|---|---|---|
+| 1 | dispatch | shinko | 2026-11-27T15:47:21Z |
+| 2 | report | hyoka | 2026-11-27T15:54:19Z |
+## Reported by hyoka — 2026-11-27T15:54:19Z
+
+ASSESSMENT REPORT — tool-grants/assess (hyoka; conditions 3-4 judged first-hand, read-only held throughout). CONDITION 3 — the registration law's live proof accumulates: MET. The bar (junro.json:332): 'no seat's grant left dead.' Priced at my own instruments, not the fold's word: the five at earlier dispatches (amendment #34 — shinko the actor on every dispatch plus the land, the store writes, the friction filings, the note born via patch; kensho the restart validation + foundations/record + harness/audit; keikaku the route's 11 ops; hyoka foundations/assess + harness/attest + harness/assess; jikko the build via patch); the eight at the probes (eight dispatch + eight report pairs with the evidence views at reports/tool-grants/probe-*.md; seven carry the grant's live state on their face; hansei the strongest form, not a gap — it filed its own report through its own junro grant, actor hansei at packets.jsonl:23, the filing IS the live exercise). The count closes: 5 + 8 = the 13 prompts at .opencode/prompts/seats/ (13 entries, read first-hand) — no seat outside the union, no seat unprobed. Adversarial pass — the datums do not kill a grant: the four SSE-transport timeouts re-fired clean (the reports exist from the re-fires); shindan's RUF100 re-pricing touches the ruff census, not the seat's report; the read-reach shadow is an environment friction on hikari reads with the probes all run at this tree's born surface — collaborator's lane, blocking nothing. No seat's grant is dead; the accumulation is the live proof the law names. CONDITION 4 — the release-effort boundary held through the close: MET. The working note's release-effort section carries every named item under the header 'composes at its own store after the birth — never inside this route' (working-note.md:31-32); the composition carries exactly three stages and eleven increments, none release-effort; the gate's own condition names the boundary; Q-setup-arch ruled it. The boundary held in the WORK, not just the prose: the birth pyproject carries NO packaging fields ('the release effort's own store grows those'); the KAT port/pytest named the release effort's act, no tests/ at the tree; the README stands at 2 lines ('the release effort grows it, never this route'); the LICENSE present and named for the release store's judgment; the closing land carries birth artifacts only — nothing release-shaped leaked inside the route. OVERALL JUDGMENT FOR THE GATE'S CLOSE: GREEN (my two conditions; conditions 1-2 kensho's verification legs, verified at his report).
